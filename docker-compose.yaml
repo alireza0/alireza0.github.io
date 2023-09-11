@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+
+  site:
+    image: alireza0
+    build:
+      context: .
+    command: ["server"]
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
