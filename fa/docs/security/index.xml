@@ -354,4 +354,14 @@ iptables -A PREROUTING -j DNAT --to-destination a.b.c.d
 &lt;li>&lt;a href="https://xtls.github.io/en/config/reverse.html">https://xtls.github.io/en/config/reverse.html&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.v2ray.com/en/configuration/reverse.html">https://www.v2ray.com/en/configuration/reverse.html&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://guide.v2fly.org/en_US/app/reverse.html">https://guide.v2fly.org/en_US/app/reverse.html&lt;/a>&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;/ol></description></item><item><title>Docs: تغییر در روتینگ</title><link>/fa/docs/security/routing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/fa/docs/security/routing/</guid><description>
+&lt;h2 id="بلاک-کردن-سایتها-و-ip-های-ایرانی">بلاک کردن سایت‌ها و IP های ایرانی&lt;/h2>
+&lt;p>یکی از روش‌های شناسایی سرورهای پروکسی و فیلتر کردن آن‌ها، بررسی ترافیک خروجی سرور است. وقتی از یکی سرور خارج از ایران، تعداد زیادی درخواست به سرویس‌های ایرانی که صرفا به درد ایرانی‌ها می‌خورد (مثل اسنپ و دیجی کالا) انجام می‌شود، سیستم فیلترینگ به سرور مورد نظر مشکوک می‌شود و ممکن است آن را فیلتر کند. راه مقابله با این تهدید، بلاک کردن تمام سایت‌ها و IP های ایرانی در سرور است که این قابلیت در پنل دیده شده است.
+برای بهبود تجربه کاربر، می‌توان به کاربر گفت که این سایت‌ها و IPها را Direct کند که ترافیک این سایت‌ها مستقیم از کلاینت به سمت سرور ایرانی برود و کاربر تفاوتی را متوجه نشود. این کار از این جهت که کل ترافیک کاربر صرفا به سمت یه IP خاص نخواهد بود هم می‌تواند مفید باشد. همچنین اگر زنجیره پراکسی وجود دارد، می‌توان این ترافیک را در سرور داخل کشور Direct کرد.
+آموزش Direct کردن از طرف کلاینت
+&lt;a href="https://github.com/MasterKia/iran-hosted-domains">https://github.com/MasterKia/iran-hosted-domains&lt;/a>
+با انجام تمام این کارها، باز هم امکان شناسایی سرور از طریق دیتای خروجی وجود دارد. منبع:
+&lt;a href="https://twitter.com/imMohammad20000/status/1666761832952995841?s=19">https://twitter.com/imMohammad20000/status/1666761832952995841?s=19&lt;/a>&lt;/p>
+&lt;h2 id="ارتقای-امنیت-کاربر-از-طریق-بلاک-کردن-سایتهای-حاوی-بدافزار-و-tracker-ها">ارتقای امنیت کاربر از طریق بلاک کردن سایت‌های حاوی بدافزار و tracker ها&lt;/h2>
+&lt;p>برای این کار باید از دو قابلیت جداگانه موجود در پنل در بلاک کردن سایت های حاوی بدافزار و بلاک کردن سرویس های تبلیغاتی (شامل trackerها) استفاده کرد. همچنین استفاده از Adguard DNS در سرور می‌تواند کیفیت بلاک کردن tracker ها را ارتقا دهد. توضیحات مروبط به Adguard DNS:
+&lt;a href="https://adguard-dns.io/en/public-dns.html">https://adguard-dns.io/en/public-dns.html&lt;/a>&lt;/p></description></item></channel></rss>
