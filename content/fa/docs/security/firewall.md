@@ -15,6 +15,7 @@ description: >
 1. [bgp.he.net report](https://bgp.he.net/AS49666#_prefixes)
 
 1. [ripe ncc api query](https://stat-ui.stat.ripe.net/data/announced-prefixes/data.json?data_overload_limit=ignore&resource=AS49666&starttime=1694525594&min_peers_seeing=10)
+2. [IP2location Report](https://www.ip2location.com/as49666)
 
 در مواردی این موضوع توسط رباتهایی از سایر نقاط هم دیده شده که در واقع این عملیات برای پیدا کردن آنها مناسب نیست.
 
